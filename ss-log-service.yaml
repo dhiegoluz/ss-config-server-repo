@@ -8,6 +8,18 @@ spring:
   rabbitmq:
     addresses: amqps://uyuyccux:y7wsIL6SP6pA_b5REc7YEJYektFQAhK0@bonobo.rmq.cloudamqp.com/uyuyccux 
 
+log:
+  refreshScope:
+    name: Diego Sousa
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health    
+    
 ss:
   broker:
     exchange:
