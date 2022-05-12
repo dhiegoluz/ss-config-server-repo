@@ -1,0 +1,18 @@
+server:
+  port: 8087
+  servlet:
+    context-path: '/log/'
+spring:
+  application:
+    name: ss-log-service    
+  rabbitmq:
+    addresses: amqps://uyuyccux:y7wsIL6SP6pA_b5REc7YEJYektFQAhK0@bonobo.rmq.cloudamqp.com/uyuyccux 
+
+ss:
+  broker:
+    exchange:
+      logEventExchange: ss.logevent
+    queue:
+      logEventQueue:
+        name: log.logevent.ms.logs         
+         
