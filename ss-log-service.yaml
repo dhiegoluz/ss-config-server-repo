@@ -10,7 +10,7 @@ spring:
 
 log:
   refreshScope:
-    name: Diego Sousa
+    name: Diego Sousa Update!!!!!
 
 management:
   endpoints:
