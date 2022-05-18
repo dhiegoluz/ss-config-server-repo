@@ -15,6 +15,10 @@ ss:
   serviceRegistry:
     username: serviceregistry
     password: 'ericsson123'
+  auth:
+    jwtSecret: y$B&E)H@MbQeThWmZq4t7w!z%C*F-JaNdRfUjXn2r5u8x/A?D(G+KbPeShVmYp3s
+    jwtExpirationMs: 14400000
+  
 
 eureka:
   client:
